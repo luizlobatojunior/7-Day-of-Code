@@ -17,8 +17,9 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 1 > Muito bom! Continue estudando e você terá muito sucesso.
 2 > Ahh que pena... Já tentou aprender outras linguagens?*/
 
-let nome = prompt("Qual é seu nome?");
-let idade = prompt("Quantos anos você tem?");
-let linguagem = prompt("Qual linguagem de programação você está aprendendo?");
+const nome = prompt("Qual o seu nome?");
+const idade = prompt("Quantos anos você tem?");
+const linguagem = prompt("Qual linguagem de programação você está estudando?");
+const msg = `"Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!"!`;
 
-console.log(`Seu nome é ${nome}, você tem ${idade} anos e está aprendendo ${linguagem}.`)
+alert(msg);
